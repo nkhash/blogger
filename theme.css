@@ -40,10 +40,8 @@
   --bs-dark-rgb: 33, 37, 41;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
-  --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-color: #212529;
   --bs-body-bg: #fff;
 }
 
@@ -65,7 +63,7 @@ body {
   font-size:16px;
   font-weight:400;
   line-height:1.5;
-  color: var(--bs-body-color);
+  color:#212529;
   text-align: var(--bs-body-text-align);
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
@@ -7522,7 +7520,7 @@ textarea.form-control-lg {
 
 .text-body {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-body-color-rgb), var(--bs-text-opacity)) !important;
+  color:#212529, var(--bs-text-opacity)) !important;
 }
 
 .text-muted {
